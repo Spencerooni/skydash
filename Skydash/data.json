@@ -1,0 +1,87 @@
+﻿{
+  "Test - Public": {
+    "vapps": [
+      {
+        "Test - Public (xyz)": [
+          {
+            "_id": 1,
+            "urn": "urn:test",
+            "name": "Dev - test",
+            "ps": "On",
+            "total_vms": 1,
+            "month_to_date": "£100.00",
+            "estimated_monthly_total": "£125.00"
+          }
+        ]
+      },
+      {
+        "Test - Secure (xyz)": [
+          {
+            "_id": 2,
+            "urn": "urn:test2",
+            "name": "Dev - test2",
+            "ps": "Off",
+            "total_vms": 0,
+            "month_to_date": "£0.00",
+            "estimated_monthly_total": "£0.00"
+          },
+          {
+            "_id": 3,
+            "urn": "urn:test3",
+            "name": "Dev - test3",
+            "ps": "On",
+            "total_vms": 1,
+            "month_to_date": "£200.00",
+            "estimated_monthly_total": "£750.50"
+          }
+        ]
+      }
+    ],
+    "vms": [
+      {
+        "GOSH - Public (IL2-PROD-STANDARD)": [
+          {
+            "_id": 4,
+            "urn": "urn:testvm",
+            "name": "Dev - db test",
+            "size": "large high memory",
+            "ps": "On",
+            "os": "Microsoft Windows Server 2012 (64-bit)",
+            "cpu": "4x2GHz",
+            "mem": "32768MB",
+            "storage": "80GB",
+            "created_at": "20/01/2015 16:30",
+            "updated_at": "21/04/2016 08:30",
+            "month_to_date": "£650.00",
+            "estimated_monthly_total": "£762.74",
+            "comment": null,
+            "last_backup_status": "Successful",
+            "in_backup": true,
+            "last_backup": "Completed on the night of: 25/04/2016",
+            "retention_length": 14,
+            "billed_hours_powered_on": 624,
+            "billed_hours_powered_off": 0,
+            "backups": [
+              {
+                "status": "Completed",
+                "backup_slot": "night of: 25/04/2016",
+                "backup_start": "25/04/2016 21:22",
+                "backup_end": "25/04/2016 21:42",
+                "snapshot_removal_start": "25/04/2016 21:41",
+                "snapshot_removal_end": "25/04/2016 21:41"
+              },
+              {
+                "status": "Completed",
+                "backup_slot": "night of: 24/04/2016",
+                "backup_start": "24/04/2016 20:28",
+                "backup_end": "24/04/2016 20:49",
+                "snapshot_removal_start": "24/04/2016 20:32",
+                "snapshot_removal_end": "24/04/2016 20:49"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
